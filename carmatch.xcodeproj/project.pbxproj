@@ -7,18 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28520D332907A8F4000F6BAF /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28520D322907A8F4000F6BAF /* CustomButton.swift */; };
+		28520D382907B713000F6BAF /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28520D372907B713000F6BAF /* extensions.swift */; };
+		28520D3A2907B779000F6BAF /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28520D392907B779000F6BAF /* CardView.swift */; };
+		28520D3F290C68A4000F6BAF /* CarMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28520D3E290C68A4000F6BAF /* CarMatch.swift */; };
+		28520D63290CD92F000F6BAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28520D62290CD92F000F6BAF /* ContentView.swift */; };
+		28520D65290CD9D2000F6BAF /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28520D64290CD9D2000F6BAF /* Car.swift */; };
+		28520D67290CDA1B000F6BAF /* CarMatchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28520D66290CDA1B000F6BAF /* CarMatchVM.swift */; };
 		2853DD0429031C350058162B /* carmatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2853DD0329031C350058162B /* carmatchApp.swift */; };
-		2853DD0629031C350058162B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2853DD0529031C350058162B /* ContentView.swift */; };
 		2853DD0829031C360058162B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2853DD0729031C360058162B /* Assets.xcassets */; };
 		2853DD0B29031C360058162B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2853DD0A29031C360058162B /* Preview Assets.xcassets */; };
+		28A6B7A02906375E0076A183 /* AppIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6B79F2906375E0076A183 /* AppIndex.swift */; };
+		28A6B7A5290647280076A183 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A6B7A4290647280076A183 /* ChatView.swift */; };
+		28BD59562905C4AF00E988AD /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BD59552905C4AF00E988AD /* ChatCell.swift */; };
+		28BD59582905D5B200E988AD /* Chats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BD59572905D5B200E988AD /* Chats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28520D322907A8F4000F6BAF /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		28520D372907B713000F6BAF /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		28520D392907B779000F6BAF /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		28520D3E290C68A4000F6BAF /* CarMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMatch.swift; sourceTree = "<group>"; };
+		28520D62290CD92F000F6BAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28520D64290CD9D2000F6BAF /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		28520D66290CDA1B000F6BAF /* CarMatchVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMatchVM.swift; sourceTree = "<group>"; };
 		2853DD0029031C350058162B /* carmatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = carmatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2853DD0329031C350058162B /* carmatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carmatchApp.swift; sourceTree = "<group>"; };
-		2853DD0529031C350058162B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2853DD0729031C360058162B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2853DD0A29031C360058162B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28A6B79F2906375E0076A183 /* AppIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIndex.swift; sourceTree = "<group>"; };
+		28A6B7A4290647280076A183 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		28BD59552905C4AF00E988AD /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		28BD59572905D5B200E988AD /* Chats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +52,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28520D342907B698000F6BAF /* custom views */ = {
+			isa = PBXGroup;
+			children = (
+				28520D322907A8F4000F6BAF /* CustomButton.swift */,
+			);
+			path = "custom views";
+			sourceTree = "<group>";
+		};
+		28520D352907B6B8000F6BAF /* sub views */ = {
+			isa = PBXGroup;
+			children = (
+				28BD59552905C4AF00E988AD /* ChatCell.swift */,
+			);
+			path = "sub views";
+			sourceTree = "<group>";
+		};
+		28520D362907B6CB000F6BAF /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				28520D372907B713000F6BAF /* extensions.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		28520D3D290C6886000F6BAF /* model */ = {
+			isa = PBXGroup;
+			children = (
+				28520D3E290C68A4000F6BAF /* CarMatch.swift */,
+				28520D64290CD9D2000F6BAF /* Car.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		2853DCF729031C350058162B = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +104,14 @@
 		2853DD0229031C350058162B /* carmatch */ = {
 			isa = PBXGroup;
 			children = (
+				28520D3D290C6886000F6BAF /* model */,
+				28520D362907B6CB000F6BAF /* extensions */,
+				28520D352907B6B8000F6BAF /* sub views */,
+				28520D342907B698000F6BAF /* custom views */,
+				28A6B7A12906460D0076A183 /* view models */,
+				28A6B79B290636F70076A183 /* views */,
 				2853DD0329031C350058162B /* carmatchApp.swift */,
-				2853DD0529031C350058162B /* ContentView.swift */,
+				28520D62290CD92F000F6BAF /* ContentView.swift */,
 				2853DD0729031C360058162B /* Assets.xcassets */,
 				2853DD0929031C360058162B /* Preview Content */,
 			);
@@ -65,6 +124,25 @@
 				2853DD0A29031C360058162B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28A6B79B290636F70076A183 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				28A6B7A4290647280076A183 /* ChatView.swift */,
+				28A6B79F2906375E0076A183 /* AppIndex.swift */,
+				28520D392907B779000F6BAF /* CardView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		28A6B7A12906460D0076A183 /* view models */ = {
+			isa = PBXGroup;
+			children = (
+				28BD59572905D5B200E988AD /* Chats.swift */,
+				28520D66290CDA1B000F6BAF /* CarMatchVM.swift */,
+			);
+			path = "view models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +215,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2853DD0629031C350058162B /* ContentView.swift in Sources */,
+				28BD59562905C4AF00E988AD /* ChatCell.swift in Sources */,
+				28520D67290CDA1B000F6BAF /* CarMatchVM.swift in Sources */,
+				28A6B7A5290647280076A183 /* ChatView.swift in Sources */,
+				28520D65290CD9D2000F6BAF /* Car.swift in Sources */,
+				28520D63290CD92F000F6BAF /* ContentView.swift in Sources */,
+				28A6B7A02906375E0076A183 /* AppIndex.swift in Sources */,
+				28520D3F290C68A4000F6BAF /* CarMatch.swift in Sources */,
+				28520D382907B713000F6BAF /* extensions.swift in Sources */,
 				2853DD0429031C350058162B /* carmatchApp.swift in Sources */,
+				28520D332907A8F4000F6BAF /* CustomButton.swift in Sources */,
+				28520D3A2907B779000F6BAF /* CardView.swift in Sources */,
+				28BD59582905D5B200E988AD /* Chats.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +361,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,8 +390,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

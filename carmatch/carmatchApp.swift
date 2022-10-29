@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct carmatchApp: App {
+    
+   private let mainVM = CarMatchVM()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: mainVM)
+                .environmentObject(Chats())
         }
     }
 }
