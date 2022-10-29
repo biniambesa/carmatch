@@ -9,4 +9,4 @@ carmatch: swipe away to your dream car.
 
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit)
+[agpl-3.0][(https://choosealicense.com/licenses/mit)](https://choosealicense.com/licenses/agpl-3.0/)
